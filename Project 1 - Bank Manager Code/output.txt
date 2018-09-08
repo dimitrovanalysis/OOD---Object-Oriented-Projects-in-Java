@@ -1,0 +1,61 @@
+States of two Banks 
+
+Assume all accounts have $40 preloaded
+BankofA (two customers)
+Anderson with Cash Card A11 (bankid: A, account number (#11), expires on 2/15/18, password: mypassword
+Abe with Cash Card A12 (bankid: A, account number (#12), expires on 3/15/18, password: mypassword 
+
+BankofB (three customers)
+Berny with Cash Card B111 (bankid: B, account number (#111), expires on 2/15/18, password: mypassword
+Bob with Cash Card B122 (bankid: B, account number (#122), expires on 3/15/18, password: mypassword
+Bill with Cash Card B133 (bankid: B, account number (#133), expires on 4/15/18, password: mypassword 
+ 
+
+States of four ATMs (2 for each Bank)
+ATM1_A: (ATM1 from BankofA)
+The maximum amount of cash a card can withdraw per day: $50
+ATM2_A: (ATM2 from BankofA)
+The maximum amount of cash a card can withdraw per day: $50
+ATM1_B: (ATM1 from BankofB)
+The maximum amount of cash a card can withdraw per day: $50
+ATM2_B: (ATM2 from BankofB)
+The maximum amount of cash a card can withdraw per day: $50 
+ 
+
+Enter your choice of ATM
+notavalidatm
+Enter your card
+notavalidcard
+This card is not supported by this ATM
+Enter your choice of ATM
+ATM1_A
+Enter your card
+a14
+This card is not supported by this ATM
+Enter your choice of ATM
+ATM1_A
+Enter your card
+A11
+This card is expired and returned to you.
+Enter your choice of ATM
+ATM1_A
+Enter your card
+A12
+This card is Accepted. Please enter your password
+notmypassword
+This is a wrong password. Enter your password.
+mypassword
+Authorization is accepted.
+Start your transaction by entering the amount to withdraw.
+100
+This amount exceeds the maximum amount you can withdraw per transaction. Please enter the amount or quit.
+Do you have any more transactions? (type: yes/no)yes
+Start your transaction by entering the amount to withdraw.
+25
+$25 is withdrawn from your account. The remaining balance of this account is $15
+Do you have any more transactions? (type: yes/no)yes
+Start your transaction by entering the amount to withdraw.
+15
+$15 is withdrawn from your account. The remaining balance of this account is $0
+Do you have any more transactions? (type: yes/no)no
+would you like to keep running this program? (type: yes/no)no

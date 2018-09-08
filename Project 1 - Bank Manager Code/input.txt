@@ -1,0 +1,17 @@
+notavalidatm
+notavalidcard
+ATM1_A
+a14
+ATM1_A
+A11
+ATM1_A
+A12
+notmypassword
+mypassword
+100
+yes
+25
+yes
+15
+no
+no
